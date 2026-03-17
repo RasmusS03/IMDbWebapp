@@ -5,6 +5,12 @@
 <ul>
 @foreach (var person in Model)
 {
-    <li>@person.Name</li>
+    <li>
+        <strong>@person.Name</strong> - 
+        Date of Birth: @person.DateOfBirth.ToShortDateString(), 
+        Nationality: @person.Nationality
+    </li>
 }
 </ul>
+
+<a href="/">Back</a>

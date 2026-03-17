@@ -4,6 +4,19 @@
 
 <div class="text-center">
     <h2>Welcome to IMDb</h2>
+
+    <div class="menybtn">
+        <a href="/Movies/Index">Movies</a>
+    </div>
+    <div class="menybtn">
+        <a href="/Movies/Create">Add Movie</a>
+    </div>
+    <div class="menybtn">
+        <a href="/Persons/Index">Persons</a>
+    </div>
+
     <p>Total movies: @ViewData["MovieCount"]</p>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Total persons: @ViewData["PersonCount"]</p>
+
 </div>
+

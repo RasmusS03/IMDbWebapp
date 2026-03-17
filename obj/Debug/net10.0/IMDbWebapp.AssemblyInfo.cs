@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IMDbWebapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+721ab72ef17133a8992eda555e0f64fa7d4e0786")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ba3313c66b6f14fd958044dd3545150d570288e")]
 [assembly: System.Reflection.AssemblyProductAttribute("IMDbWebapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IMDbWebapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

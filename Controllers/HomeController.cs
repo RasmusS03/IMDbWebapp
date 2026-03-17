@@ -6,6 +6,8 @@ namespace IMDbWebapp.Controllers
 {
     public class HomeController : Controller
     {
+        
+        
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -15,6 +17,8 @@ namespace IMDbWebapp.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Message = "Welcome to Mini IMDb";
+            ViewData["MovieCount"] = FakeDatabase.Movies.Count;
             return View();
         }
 

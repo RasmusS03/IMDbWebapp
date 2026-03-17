@@ -95,3 +95,4 @@
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/IMDbWebapp.pdb
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/IMDbWebapp.genruntimeconfig.cache
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/ref/IMDbWebapp.dll
+/Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/IMDbWebapp.sourcelink.json

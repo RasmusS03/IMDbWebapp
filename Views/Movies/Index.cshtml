@@ -1,0 +1,14 @@
+@model List<Movie>
+
+<h1>Movies</h1>
+
+<ul>
+@foreach (var movie in Model)
+{
+    <li>
+        <a href="/Movies/Details/@movie.MovieID">
+            @movie.Title
+        </a>
+    </li>
+}
+</ul>

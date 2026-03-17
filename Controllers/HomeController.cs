@@ -17,7 +17,6 @@ namespace IMDbWebapp.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Message = "Welcome to Mini IMDb";
             ViewData["MovieCount"] = FakeDatabase.Movies.Count;
             return View();
         }

@@ -8,6 +8,8 @@ namespace IMDbWebapp.Models
         public TimeSpan Duration { get; set; }
         public int Rating { get; set; }
 
+        public List<MovieCredit> Credits => FakeDatabase.MovieCredits.Where(c => c.MovieID == this.MovieID).ToList();
+
         public Movie()
         {
             MovieID = 0;

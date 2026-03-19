@@ -2,21 +2,28 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h2>Welcome to IMDb</h2>
+<body class="@ViewBag.Theme">
+    <div class="text-center">
+        <h2>IMDb</h2>
+        <p>@ViewBag.Message</p>
 
-    <div class="menybtn">
-        <a href="/Movies/Index">Movies</a>
+
+        <div class="menybtn">
+            <a href="/Movies/Index">Movies</a>
+        </div>
+        <div class="menybtn">
+            <a href="/Movies/Create">Add Movie</a>
+        </div>
+        <div class="menybtn">
+            <a href="/Persons/Index">Persons</a>
+        </div>
+
+
+    
+        <p>Number of movies: @ViewData["MovieCount"]</p>
+        <p>Number of persons: @ViewData["PersonCount"]</p>
+
+        <a href="/Home/SetTheme?theme=light">Light Mode</a>
+        <a href="/Home/SetTheme?theme=dark">Dark Mode</a>
     </div>
-    <div class="menybtn">
-        <a href="/Movies/Create">Add Movie</a>
-    </div>
-    <div class="menybtn">
-        <a href="/Persons/Index">Persons</a>
-    </div>
-
-    <p>Total movies: @ViewData["MovieCount"]</p>
-    <p>Total persons: @ViewData["PersonCount"]</p>
-
-</div>
-
+</body>

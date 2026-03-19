@@ -1,16 +1,18 @@
 @model List<Person>
 
-<h1>Persons</h1>
+<body class="@ViewBag.Theme">
+    <h1>Persons</h1>
 
-<ul>
-@foreach (var person in Model)
-{
-    <li>
-        <strong>@person.Name</strong> - 
-        Date of Birth: @person.DateOfBirth.ToShortDateString(), 
-        Nationality: @person.Nationality
-    </li>
-}
-</ul>
+    <ul>
+    @foreach (var person in Model)
+    {
+        <li>
+            <strong>@person.Name</strong> - 
+            Date of Birth: @person.DateOfBirth.ToShortDateString(), 
+            Nationality: @person.Nationality
+        </li>
+    }
+    </ul>
 
-<a href="/">Back</a>
+    <a href="/">Back</a>
+</body>

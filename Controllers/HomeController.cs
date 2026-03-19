@@ -17,7 +17,19 @@ namespace IMDbWebapp.Controllers
 
         public IActionResult Index()
         {
+        
+            var theme = Request.Cookies["theme"];
+            //default theme is light if no cookie is set
+            if (string.IsNullOrEmpty(theme))
+            {
+                theme = "light";
+            }
+            ViewBag.Theme = theme;
+
             ViewData["MovieCount"] = FakeDatabase.Movies.Count;
+            ViewData["PersonCount"] = FakeDatabase.Persons.Count;
+            ViewBag.Message = "Welcome to the IMDb Web App!";
+            
             return View();
         }
 
@@ -30,6 +42,15 @@ namespace IMDbWebapp.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public IActionResult SetTheme(string theme)
+        {
+            Response.Cookies.Append("theme", theme, new CookieOptions
+            {
+                Expires = DateTime.Now.AddDays(30)
+            });
+
+            return RedirectToAction("Index");
         }
     }
 }

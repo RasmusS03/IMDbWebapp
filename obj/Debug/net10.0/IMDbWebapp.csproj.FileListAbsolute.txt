@@ -21,7 +21,6 @@
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/scopedcss/bundle/IMDbWebapp.styles.css
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/scopedcss/projectbundle/IMDbWebapp.bundle.scp.css
-/Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/compressed/cf7b7dlpjl-{0}-b9sayid5wm-b9sayid5wm.gz
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/compressed/9l9c7x64uw-{0}-61n19gt1b8-61n19gt1b8.gz
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/compressed/edv97jjb0e-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/compressed/g0j499rxc0-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -96,3 +95,4 @@
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/IMDbWebapp.genruntimeconfig.cache
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/ref/IMDbWebapp.dll
 /Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/IMDbWebapp.sourcelink.json
+/Users/Studier/Plugg/Databasteknik/Lab 1/IMDbWebapp/IMDbWebapp/obj/Debug/net10.0/compressed/cf7b7dlpjl-{0}-hjt6iv2cpb-hjt6iv2cpb.gz

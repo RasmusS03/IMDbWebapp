@@ -1,20 +1,22 @@
-<h1>@Model.Title</h1>
+<body class="@ViewBag.Theme">
+    <h1>@Model.Title</h1>
 
-<h3>Details</h3>
-<p>Duration: @Model.Duration</p>
-<p>Rating: @Model.Rating</p>
-<p>Release Date: @Model.ReleaseDate.ToShortDateString()</p>
+    <h3>Details</h3>
+    <p>Duration: @Model.Duration</p>
+    <p>Rating: @Model.Rating</p>
+    <p>Release Date: @Model.ReleaseDate.ToShortDateString()</p>
 
-<h3>Credits</h3>
-<ul>
-    @foreach (var credit in Model.Credits)
-    {
-        //letar personers namn baserat på PersonID i krediten
-        var person = FakeDatabase.Persons.FirstOrDefault(p => p.PersonID == credit.PersonID);
-        <li>
-            <strong>@person?.Name</strong> - @credit.RoleType
-        </li>
-    }
-</ul>
+    <h3>Credits</h3>
+    <ul>
+        @foreach (var credit in Model.Credits)
+        {
+            //letar personers namn baserat på PersonID i krediten
+            var person = FakeDatabase.Persons.FirstOrDefault(p => p.PersonID == credit.PersonID);
+            <li>
+                <strong>@person?.Name</strong> - @credit.RoleType
+            </li>
+        }
+    </ul>
 
 <a href="/Movies/Index">Back to list</a>
+</body>

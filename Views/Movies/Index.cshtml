@@ -1,16 +1,17 @@
 @model List<Movie>
+<body class="@ViewBag.Theme">
+    <h1>Movies</h1>
 
-<h1>Movies</h1>
+    <ul>
+    @foreach (var movie in Model)
+    {
+        <li>
+            <a href="/Movies/Details/@movie.MovieID">
+                @movie.Title
+            </a>
+        </li>
+    }
+    </ul>
 
-<ul>
-@foreach (var movie in Model)
-{
-    <li>
-        <a href="/Movies/Details/@movie.MovieID">
-            @movie.Title
-        </a>
-    </li>
-}
-</ul>
-
-<a href="/">Back</a>
+    <a href="/">Back</a>
+</body>
